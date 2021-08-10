@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_toRightOf="@+id/imgTonyStark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Tony Stark"
+        android:textColor="#d32f2f"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/txtSubheader"
+        android:layout_below="@+id/txtemail"
+        android:layout_toRightOf="@+id/imgTonyStark"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="+9122345678"
+        android:textColor="#d32f2f"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_below="@id/txtHeader"
+        android:layout_toRightOf="@+id/imgTonyStark"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TonyStark@gmail.com"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="#d32f2f"/>
+
+    <ImageView
+        android:id="@+id/imgTonyStark"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/tony_stark_new" />
+
+
+
+</RelativeLayout>

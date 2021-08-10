@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My First Application</string>
+    <string name="new_app_name">Avenger</string>
+    <string name="mobile_number">Enter mobile number</string>
+    <string name="password">Enter Your Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="register_yourself">Register yourself</string>
+    <string name="prefrence_file_name">Avengers Prefrences</string>
+    <string name="log_out">Log Out</string>
+</resources>
